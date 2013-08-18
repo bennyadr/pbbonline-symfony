@@ -6,7 +6,7 @@ PBB Online is an integrated Land and Building Tax system crafted in [Symfony 1.8
 
 Fork this project and clone it to your local machine.
 
-	$ git clone https://github.com/<your git name>/zlog-symfony .
+	$ git clone https://github.com/<your git name>/pbbonline-symfony.git .
 
 This will work "out of the box", provided that you clone the repository under the root web directory configured for your server (apache2 is in '/var/www/' by default).
 
