@@ -1,0 +1,124 @@
+    <?php 
+    $i=0;
+    foreach ($form as $widget){
+      $i++;
+      if($i>=count($form)-1){
+        echo $widget;
+      }else{
+      ?>
+      <div class="control-group label-panjang">
+        <?php echo $widget->renderLabel(null, array('class'=>'control-label')) ?>
+        <div class="controls"><?php echo $widget ?><?php echo $widget->renderHelp() ?></div>
+      </div>
+    <?php }
+    } ?>
+    
+<div class="control-group"><?php echo $form['dbkb101']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb101'] ?><?php echo $form['dbkb101']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb102']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb102'] ?><?php echo $form['dbkb102']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb103']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb103'] ?><?php echo $form['dbkb103']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb104']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb104'] ?><?php echo $form['dbkb104']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb201']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb201'] ?><?php echo $form['dbkb201']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb202']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb202'] ?><?php echo $form['dbkb202']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb203']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb203'] ?><?php echo $form['dbkb203']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb204']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb204'] ?><?php echo $form['dbkb204']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb205']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb205'] ?><?php echo $form['dbkb205']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb206']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb206'] ?><?php echo $form['dbkb206']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb207']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb207'] ?><?php echo $form['dbkb207']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb208']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb208'] ?><?php echo $form['dbkb208']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb301']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb301'] ?><?php echo $form['dbkb301']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb302']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb302'] ?><?php echo $form['dbkb302']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb401']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb401'] ?><?php echo $form['dbkb401']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb402']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb402'] ?><?php echo $form['dbkb402']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb403']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb403'] ?><?php echo $form['dbkb403']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb404']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb404'] ?><?php echo $form['dbkb404']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb501']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb501'] ?><?php echo $form['dbkb501']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb502']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb502'] ?><?php echo $form['dbkb502']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb503']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb503'] ?><?php echo $form['dbkb503']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb504']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb504'] ?><?php echo $form['dbkb504']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb505']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb505'] ?><?php echo $form['dbkb505']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb506']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb506'] ?><?php echo $form['dbkb506']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb507']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb507'] ?><?php echo $form['dbkb507']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb601']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb601'] ?><?php echo $form['dbkb601']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb602']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb602'] ?><?php echo $form['dbkb602']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb603']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb603'] ?><?php echo $form['dbkb603']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb604']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb604'] ?><?php echo $form['dbkb604']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb605']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb605'] ?><?php echo $form['dbkb605']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb606']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb606'] ?><?php echo $form['dbkb606']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb607']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb607'] ?><?php echo $form['dbkb607']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb608']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb608'] ?><?php echo $form['dbkb608']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb609']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb609'] ?><?php echo $form['dbkb609']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb610']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb610'] ?><?php echo $form['dbkb610']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb701']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb701'] ?><?php echo $form['dbkb701']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb702']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb702'] ?><?php echo $form['dbkb702']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb703']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb703'] ?><?php echo $form['dbkb703']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb704']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb704'] ?><?php echo $form['dbkb704']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb705']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb705'] ?><?php echo $form['dbkb705']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb706']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb706'] ?><?php echo $form['dbkb706']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb707']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb707'] ?><?php echo $form['dbkb707']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb708']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb708'] ?><?php echo $form['dbkb708']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb801']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb801'] ?><?php echo $form['dbkb801']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb802']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb802'] ?><?php echo $form['dbkb802']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb803']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb803'] ?><?php echo $form['dbkb803']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb804']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb804'] ?><?php echo $form['dbkb804']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb805']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb805'] ?><?php echo $form['dbkb805']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb806']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb806'] ?><?php echo $form['dbkb806']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb807']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb807'] ?><?php echo $form['dbkb807']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb808']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb808'] ?><?php echo $form['dbkb808']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb901']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb901'] ?><?php echo $form['dbkb901']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb902']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb902'] ?><?php echo $form['dbkb902']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb903']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb903'] ?><?php echo $form['dbkb903']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb904']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb904'] ?><?php echo $form['dbkb904']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb905']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb905'] ?><?php echo $form['dbkb905']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb906']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb906'] ?><?php echo $form['dbkb906']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1001']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1001'] ?><?php echo $form['dbkb1001']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1002']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1002'] ?><?php echo $form['dbkb1002']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1003']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1003'] ?><?php echo $form['dbkb1003']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1004']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1004'] ?><?php echo $form['dbkb1004']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1005']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1005'] ?><?php echo $form['dbkb1005']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1006']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1006'] ?><?php echo $form['dbkb1006']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1007']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1007'] ?><?php echo $form['dbkb1007']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1008']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1008'] ?><?php echo $form['dbkb1008']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1009']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1009'] ?><?php echo $form['dbkb1009']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1010']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1010'] ?><?php echo $form['dbkb1010']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1011']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1011'] ?><?php echo $form['dbkb1011']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1012']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1012'] ?><?php echo $form['dbkb1012']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1013']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1013'] ?><?php echo $form['dbkb1013']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1014']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1014'] ?><?php echo $form['dbkb1014']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1015']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1015'] ?><?php echo $form['dbkb1015']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1016']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1016'] ?><?php echo $form['dbkb1016']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1101']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1101'] ?><?php echo $form['dbkb1101']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1102']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1102'] ?><?php echo $form['dbkb1102']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1103']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1103'] ?><?php echo $form['dbkb1103']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1104']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1104'] ?><?php echo $form['dbkb1104']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1105']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1105'] ?><?php echo $form['dbkb1105']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1106']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1106'] ?><?php echo $form['dbkb1106']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1107']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1107'] ?><?php echo $form['dbkb1107']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1108']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1108'] ?><?php echo $form['dbkb1108']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1109']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1109'] ?><?php echo $form['dbkb1109']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1110']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1110'] ?><?php echo $form['dbkb1110']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1111']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1111'] ?><?php echo $form['dbkb1111']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1112']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1112'] ?><?php echo $form['dbkb1112']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1113']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1113'] ?><?php echo $form['dbkb1113']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1114']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1114'] ?><?php echo $form['dbkb1114']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1115']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1115'] ?><?php echo $form['dbkb1115']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1116']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1116'] ?><?php echo $form['dbkb1116']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1117']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1117'] ?><?php echo $form['dbkb1117']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1201']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1201'] ?><?php echo $form['dbkb1201']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1202']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1202'] ?><?php echo $form['dbkb1202']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1203']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1203'] ?><?php echo $form['dbkb1203']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1204']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1204'] ?><?php echo $form['dbkb1204']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1205']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1205'] ?><?php echo $form['dbkb1205']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1206']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1206'] ?><?php echo $form['dbkb1206']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1207']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1207'] ?><?php echo $form['dbkb1207']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1208']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1208'] ?><?php echo $form['dbkb1208']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1209']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1209'] ?><?php echo $form['dbkb1209']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1210']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1210'] ?><?php echo $form['dbkb1210']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1211']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1211'] ?><?php echo $form['dbkb1211']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1212']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1212'] ?><?php echo $form['dbkb1212']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1213']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1213'] ?><?php echo $form['dbkb1213']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1214']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1214'] ?><?php echo $form['dbkb1214']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1215']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1215'] ?><?php echo $form['dbkb1215']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1216']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1216'] ?><?php echo $form['dbkb1216']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1217']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1217'] ?><?php echo $form['dbkb1217']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1218']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1218'] ?><?php echo $form['dbkb1218']->renderHelp() ?></div></div>
+<div class="control-group"><?php echo $form['dbkb1219']->renderLabel(null, array('class'=>'control-label')) ?><div class="controls"><?php echo $form['dbkb1219'] ?><?php echo $form['dbkb1219']->renderHelp() ?></div></div>

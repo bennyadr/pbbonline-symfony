@@ -1,0 +1,127 @@
+ObjekPajak:
+ actAs: [Timestampable]
+ columns:
+  nopersil: string(255)
+  blokkavno: string(255)
+  rwrt: string(255)
+  jalan: string(255)
+  cabang: string(255)
+  luastanah: string(255)
+  kodeznt_id: integer
+# relations:
+#  KodeZNT: {onDelete: cascade, foreignAlias: opkodeznts, local: kodeznt_id, foreign: id}
+
+JenisPermohonan:
+  actAs: 
+    Timestampable: ~
+    Sluggable:
+      fields: [nama]
+  columns:
+    nama:                         { type: string(255), notnull: true, unique: true }
+      
+Permohonan:
+  actAs: [Timestampable]
+  columns:
+    nomor:                        { type: string(255), notnull: true }
+    jenis_surat:                  { type: string(255), notnull: true }
+    jenis_pelayanan_id:           { type: integer, notnull: true }
+    nop_id:                       { type: string(255), notnull: true }
+    tahun_pajak:                  { type: integer, notnull: true }
+    no_surat:                     { type: string(255), notnull: true }
+    isi_surat:                    { type: string(4000), notnull: true }
+    lampiran_surat_kuasa:         { type: string(255) }
+    lampiran_fotokopi_ktp:        { type: string(255) }
+    lampiran_fotokopi_sertifikat: { type: string(255) }
+    lampiran_fotokopi_imb:        { type: string(255) }
+  relations:
+    JenisPermohonan: { onDelete: CASCADE, local: jenis_pelayanan_id, foreign: id, foreignAlias: Permohonan } 
+#ruki begin
+ZNT:
+  actAs: [Timestampable]
+  columns:
+    kode: { type: string(2), notnull: true }
+    nir: { type: integer(9), notnull: true }
+    blok_id: { type: integer, notnull: true }
+    dokumen_id: { type: string(255), notnull: true }
+    tgl_cek: { type: date }
+    nip_input: { type: integer(11), notnull: true }
+    nip_cek: { type: integer(11) }
+    valid: { type: boolean }
+SPOP:
+  actAs: [Timestampable]
+  columns:
+    nomor_formulir: string(255)
+    jenis_transaksi: integer
+    NOP: string(255)
+    NOP_bersama: string(255)
+    NOP_asal: string(255)
+    NO_SPPT_lama: string(255)
+    nama_jalan: string(255)  #B. DATA LETAK OBJEK PAJAK
+    blok_kav_nomor: string(255)
+    kelurahan_objek_pajak: string(255)
+    RT_objek_pajak: integer(2)
+    RW_objek_pajak: integer(2)
+    status: string(255)  #C. DATA SUBJEK PAJAK
+    pekerjaan: string(255)
+    nama_subjek_pajak: string(255)
+    nama_jalan_subjek_pajak: string(255)
+    kelurahan_subjek_pajak: string(255)
+    RW_subjek_pajak: integer(2)
+    RT_subjek_pajak: integer(2)
+    kabupaten: string(255)
+    kodepos: integer(5)
+    no_telp: integer(12)
+    no_fax: integer(12)
+    no_hp: integer(12)
+    email: string(255)
+    nomor_KTP: string(255)
+    berlaku_sampai_dengan: string(255)
+    luas_tanah: decimal  #D. DATA TANAH
+    zona_nilai_tanah: integer
+    nilai_tanah_per_m2: integer
+    jenis_tanah: string(255)
+    fasilitas_umum: boolean
+    jumlah_bangunan: string(255)  #E. DATA BANGUNAN
+    gambar: string(255)
+LSPOP:
+  actAs: [Timestampable]
+  columns:
+    val: clob
+    opt: clob
+DBKB:
+  actAs: [Timestampable]
+  columns:
+    val: clob
+    opt: clob
+
+jalan:
+  actAs: [Timestampable]
+  columns:
+    nama: string(100)
+opsi:
+  columns:
+    name: string(100)
+    value: clob
+kecamatan:
+  actAs: [Timestampable]
+  columns:
+    nama: string(255)
+    kodepos: integer(5)
+    kode_lokal: integer
+kelurahan:
+  actAs: [Timestampable]
+  columns:
+    nama: string(255)
+    kecamatan_id: integer
+    kode_lokal: integer
+  relations:
+    kecamatan: { onDelete: CASCADE, local: kecamatan_id, foreign: id, foreignAlias: kelurahan }
+NJOP:
+  actAs: [Timestampable]
+  columns:
+    jenis: string(10)
+    kelas: string(3)
+    batas_atas: integer
+    batas_bawah: integer
+    nilai: integer
+#ruki end

@@ -1,0 +1,143 @@
+objek_pajak:
+  class:   sfDoctrineRouteCollection
+  options:
+    model:        ObjekPajak
+    prefix_path:  /objek-pajak
+    module:       ObjekPajak
+#ruki begin
+znt:
+  class:   sfDoctrineRouteCollection
+  options:
+    model:        znt
+    prefix_path:  /znt
+    module:       znt
+    type: list
+spop:
+  class:   sfDoctrineRouteCollection
+  options:
+    model:        spop
+    prefix_path:  /spop
+    module:       spop
+lspop:
+  class:   sfDoctrineRouteCollection
+  options:
+    model:        lspop
+    prefix_path:  /lspop
+    module:       lspop
+dbkb:
+  class:   sfDoctrineRouteCollection
+  options:
+    model:        dbkb
+    prefix_path:  /dbkb
+    module:       dbkb
+jalan:
+  class: sfDoctrineRouteCollection
+  options:
+    model: jalan
+    prefix_path: /jalan
+    module: jalan
+kecamatan:
+  class: sfDoctrineRouteCollection
+  options:
+    model: kecamatan
+    prefix_path: /kecamatan
+    module: kecamatan
+kelurahan:
+  class: sfDoctrineRouteCollection
+  options:
+    model: kelurahan
+    prefix_path: /kelurahan
+    module: kelurahan
+njop:
+  class: sfDoctrineRouteCollection
+  options:
+    model: njop
+    prefix_path: /njop
+    module: njop
+    
+    
+#ruki end
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+        
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+        
+sf_guard_password:
+  url:   /request_password
+  param: { module: sfGuardAuth, action: password }
+
+permohonan:
+  url:         /permohonan
+  class:       sfDoctrineRoute
+  options:     { model: Permohonan, type: list }
+  params:      { module: permohonan, action: index }
+  requirements:
+    sf_method: [get]
+permohonan_new:
+  url:        /permohonan/formulir
+  class:      sfDoctrineRoute
+  options:    { model: Permohonan, type: object }
+  params:     { module: permohonan, action: new }
+  requirements:
+    sf_method: [get]
+permohonan_create:
+  url:        /permohonan
+  class:      sfDoctrineRoute
+  options:    { model: Permohonan, type: object }
+  params:     { module: permohonan, action: create }
+  requirements:
+    sf_method: [post]
+permohonan_edit:
+  url:        /permohonan/:id/edit
+  class:      sfDoctrineRoute
+  options:    { model: Permohonan, type: object }
+  params:     { module: permohonan, action: edit }
+  requirements:
+    sf_method: [get]
+permohonan_update:
+  url:        /permohonan/:id
+  class:      sfDoctrineRoute
+  options:    { model: Permohonan, type: object }
+  params:     { module: permohonan, action: update }
+  requirements:
+    sf_method: [put]
+permohonan_delete:
+  url:        /permohonan/:id
+  class:      sfDoctrineRoute
+  options:    { model: Permohonan, type: object }
+  params:     { module: permohonan, action: delete }
+  requirements:
+    sf_method: [delete]
+permohonan_show:
+  url:        /permohonan/:id
+  class:      sfDoctrineRoute
+  options:    { model: Permohonan, type: object }
+  params:     { module: permohonan, action: show }
+  requirements:
+    sf_method: [get]
+permohonan_jenis:
+  url:        /jenis-permohonan/:slug
+  class:      sfDoctrineRoute
+  options:    { model: JenisPermohonan, type: object }
+  params:     { module: permohonan, action: jenis }
+
+# default rules
+homepage:
+  url:   /
+  class:       sfDoctrineRoute
+  options:     { model: Permohonan, type: list }
+  params:      { module: permohonan, action: index }
+  requirements:
+    sf_method: [get]
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

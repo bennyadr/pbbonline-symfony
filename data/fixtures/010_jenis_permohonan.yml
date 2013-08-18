@@ -1,0 +1,626 @@
+JenisPermohonan:
+  keberatan:
+    nama: Keberatan
+  pengurangan:
+    nama: Pengurangan
+  pengembalian:
+    nama: Pengembalian
+  imbalan:
+    nama: Imbalan Bunga
+  pembetulan:
+    nama: Pembetulan
+  penghapusan:
+    nama: Penghapusan
+  pembatalan:
+    nama: Pembatalan
+  lain-lain:
+    nama: Lain-lain
+    
+    
+Permohonan:
+  keberatan_1:
+    nomor:                        3123-32131-32
+    jenis_surat:                  individual
+    nop_id:                       321-323-3212
+    tahun_pajak:                  2012
+    no_surat:                     123/KEBERATAN-IV
+    isi_surat:                    |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna nibh, porta nec elementum ut, sagittis ac dui. Sed hendrerit condimentum lacinia. Sed mi enim, aliquam sit amet tincidunt sed, aliquet laoreet lectus. Donec sed felis velit, in pretium nibh. 
+      
+      Fusce accumsan, sapien id iaculis vestibulum, metus orci elementum ante, eget fermentum metus neque nec elit. Pellentesque eget nisl dolor. Nulla condimentum lectus nec libero iaculis sed pellentesque justo fermentum. Vivamus fringilla viverra sapien, at aliquam turpis venenatis eget.
+    lampiran_surat_kuasa:         surat_kuasa.jpg
+    lampiran_fotokopi_sertifikat: sertifikat.jpg
+    JenisPermohonan:              keberatan
+  pengembalian_1:
+    nomor:                        3123-32131-32
+    jenis_surat:                  individual
+    nop_id:                       321-323-3212
+    tahun_pajak:                  2012
+    no_surat:                     123/PENGEMBALIAN-X
+    isi_surat:                    |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna nibh, porta nec elementum ut, sagittis ac dui. Sed hendrerit condimentum lacinia. Sed mi enim, aliquam sit amet tincidunt sed, aliquet laoreet lectus. Donec sed felis velit, in pretium nibh. 
+      
+      Fusce accumsan, sapien id iaculis vestibulum, metus orci elementum ante, eget fermentum metus neque nec elit. Pellentesque eget nisl dolor. Nulla condimentum lectus nec libero iaculis sed pellentesque justo fermentum. Vivamus fringilla viverra sapien, at aliquam turpis venenatis eget.
+    lampiran_fotokopi_ktp:        ktp.jpg
+    lampiran_fotokopi_imb:        imb.jpg
+    JenisPermohonan:              keberatan
+  imbalan_1:
+    nomor:                        3123-32131-32
+    jenis_surat:                  individual
+    nop_id:                       321-323-3212
+    tahun_pajak:                  2012
+    no_surat:                     123/IMBALAN-XI
+    isi_surat:                    |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna nibh, porta nec elementum ut, sagittis ac dui. Sed hendrerit condimentum lacinia. Sed mi enim, aliquam sit amet tincidunt sed, aliquet laoreet lectus. Donec sed felis velit, in pretium nibh. 
+      
+      Fusce accumsan, sapien id iaculis vestibulum, metus orci elementum ante, eget fermentum metus neque nec elit. Pellentesque eget nisl dolor. Nulla condimentum lectus nec libero iaculis sed pellentesque justo fermentum. Vivamus fringilla viverra sapien, at aliquam turpis venenatis eget.
+    lampiran_surat_kuasa:         surat_kuasa.jpg
+    lampiran_fotokopi_sertifikat: sertifikat.jpg
+    JenisPermohonan:              keberatan
+  pembetulan_1:
+    nomor:                        3123-32131-32
+    jenis_surat:                  individual
+    nop_id:                       321-323-3212
+    tahun_pajak:                  2012
+    no_surat:                     123/PEMBETULAN-IV
+    isi_surat:                    |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna nibh, porta nec elementum ut, sagittis ac dui. Sed hendrerit condimentum lacinia. Sed mi enim, aliquam sit amet tincidunt sed, aliquet laoreet lectus. Donec sed felis velit, in pretium nibh. 
+      
+      Fusce accumsan, sapien id iaculis vestibulum, metus orci elementum ante, eget fermentum metus neque nec elit. Pellentesque eget nisl dolor. Nulla condimentum lectus nec libero iaculis sed pellentesque justo fermentum. Vivamus fringilla viverra sapien, at aliquam turpis venenatis eget.
+    lampiran_surat_kuasa:         surat_kuasa.jpg
+    lampiran_fotokopi_sertifikat: sertifikat.jpg
+    lampiran_fotokopi_ktp:        ktp.jpg
+    lampiran_fotokopi_imb:        imb.jpg
+    JenisPermohonan:              keberatan
+  penghapusan_1:
+    nomor:                        3123-32131-32
+    jenis_surat:                  individual
+    nop_id:                       321-323-3212
+    tahun_pajak:                  2012
+    no_surat:                     123/PENGHAPUSAN-I
+    isi_surat:                    |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna nibh, porta nec elementum ut, sagittis ac dui. Sed hendrerit condimentum lacinia. Sed mi enim, aliquam sit amet tincidunt sed, aliquet laoreet lectus. Donec sed felis velit, in pretium nibh. 
+      
+      Fusce accumsan, sapien id iaculis vestibulum, metus orci elementum ante, eget fermentum metus neque nec elit. Pellentesque eget nisl dolor. Nulla condimentum lectus nec libero iaculis sed pellentesque justo fermentum. Vivamus fringilla viverra sapien, at aliquam turpis venenatis eget.
+    lampiran_surat_kuasa:         surat_kuasa.jpg
+    JenisPermohonan:              keberatan
+  pembatalan_1:
+    nomor:                        3123-32131-32
+    jenis_surat:                  individual
+    nop_id:                       321-323-3212
+    tahun_pajak:                  2012
+    no_surat:                     123/PEMBATALAN-IV
+    isi_surat:                    |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna nibh, porta nec elementum ut, sagittis ac dui. Sed hendrerit condimentum lacinia. Sed mi enim, aliquam sit amet tincidunt sed, aliquet laoreet lectus. Donec sed felis velit, in pretium nibh. 
+      
+      Fusce accumsan, sapien id iaculis vestibulum, metus orci elementum ante, eget fermentum metus neque nec elit. Pellentesque eget nisl dolor. Nulla condimentum lectus nec libero iaculis sed pellentesque justo fermentum. Vivamus fringilla viverra sapien, at aliquam turpis venenatis eget.
+    lampiran_surat_kuasa:         surat_kuasa.jpg
+    lampiran_fotokopi_imb:        imb.jpg
+    JenisPermohonan:              keberatan
+  lain_1:
+    nomor:                        3123-32131-32
+    jenis_surat:                  individual
+    nop_id:                       321-323-3212
+    tahun_pajak:                  2012
+    no_surat:                     123/LAIN-IIX
+    isi_surat:                    |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna nibh, porta nec elementum ut, sagittis ac dui. Sed hendrerit condimentum lacinia. Sed mi enim, aliquam sit amet tincidunt sed, aliquet laoreet lectus. Donec sed felis velit, in pretium nibh. 
+      
+      Fusce accumsan, sapien id iaculis vestibulum, metus orci elementum ante, eget fermentum metus neque nec elit. Pellentesque eget nisl dolor. Nulla condimentum lectus nec libero iaculis sed pellentesque justo fermentum. Vivamus fringilla viverra sapien, at aliquam turpis venenatis eget.
+    lampiran_surat_kuasa:         surat_kuasa.jpg
+    lampiran_fotokopi_sertifikat: sertifikat.jpg
+    lampiran_fotokopi_ktp:        ktp.jpg
+    lampiran_fotokopi_imb:        imb.jpg
+    JenisPermohonan:              keberatan
+    
+<?php for ($i = 100; $i <= 105; $i++): ?>
+  pengurangan_<?php echo $i ?>:
+    nomor:                        3123-32131-32
+    jenis_surat:                  individual
+    nop_id:                       321-323-3212
+    tahun_pajak:                  2012
+    no_surat:                     123/PENGURANGAN-II
+    isi_surat:                    |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna nibh, porta nec elementum ut, sagittis ac dui. Sed hendrerit condimentum lacinia. Sed mi enim, aliquam sit amet tincidunt sed, aliquet laoreet lectus. Donec sed felis velit, in pretium nibh. 
+      
+      Fusce accumsan, sapien id iaculis vestibulum, metus orci elementum ante, eget fermentum metus neque nec elit. Pellentesque eget nisl dolor. Nulla condimentum lectus nec libero iaculis sed pellentesque justo fermentum. Vivamus fringilla viverra sapien, at aliquam turpis venenatis eget.
+    lampiran_surat_kuasa:         surat_kuasa.jpg
+    lampiran_fotokopi_sertifikat: sertifikat.jpg
+    lampiran_fotokopi_ktp:        ktp.jpg
+    lampiran_fotokopi_imb:        imb.jpg
+    JenisPermohonan:              pengurangan
+<?php endfor ?>
+
+<?php for ($i = 100; $i <= 102; $i++): ?>
+  pengembalian_<?php echo $i ?>:
+    nomor:                        3123-32131-32
+    jenis_surat:                  individual
+    nop_id:                       321-323-3212
+    tahun_pajak:                  2012
+    no_surat:                     123/PENGEMBALIAN-X
+    isi_surat:                    |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna nibh, porta nec elementum ut, sagittis ac dui. Sed hendrerit condimentum lacinia. Sed mi enim, aliquam sit amet tincidunt sed, aliquet laoreet lectus. Donec sed felis velit, in pretium nibh. 
+      
+      Fusce accumsan, sapien id iaculis vestibulum, metus orci elementum ante, eget fermentum metus neque nec elit. Pellentesque eget nisl dolor. Nulla condimentum lectus nec libero iaculis sed pellentesque justo fermentum. Vivamus fringilla viverra sapien, at aliquam turpis venenatis eget.
+    lampiran_fotokopi_ktp:        ktp.jpg
+    lampiran_fotokopi_imb:        imb.jpg
+    JenisPermohonan:              pengembalian
+<?php endfor ?>
+
+<?php for ($i = 100; $i <= 104; $i++): ?>
+  imbalan_<?php echo $i ?>:
+    nomor:                        3123-32131-32
+    jenis_surat:                  individual
+    nop_id:                       321-323-3212
+    tahun_pajak:                  2012
+    no_surat:                     123/IMBALAN-XI
+    isi_surat:                    |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna nibh, porta nec elementum ut, sagittis ac dui. Sed hendrerit condimentum lacinia. Sed mi enim, aliquam sit amet tincidunt sed, aliquet laoreet lectus. Donec sed felis velit, in pretium nibh. 
+      
+      Fusce accumsan, sapien id iaculis vestibulum, metus orci elementum ante, eget fermentum metus neque nec elit. Pellentesque eget nisl dolor. Nulla condimentum lectus nec libero iaculis sed pellentesque justo fermentum. Vivamus fringilla viverra sapien, at aliquam turpis venenatis eget.
+    lampiran_surat_kuasa:         surat_kuasa.jpg
+    lampiran_fotokopi_sertifikat: sertifikat.jpg
+    JenisPermohonan:              imbalan
+<?php endfor ?>
+
+<?php for ($i = 100; $i <= 108; $i++): ?>
+  penghapusan_<?php echo $i ?>:
+    nomor:                        3123-32131-32
+    jenis_surat:                  individual
+    nop_id:                       321-323-3212
+    tahun_pajak:                  2012
+    no_surat:                     123/PENGHAPUSAN-I
+    isi_surat:                    |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna nibh, porta nec elementum ut, sagittis ac dui. Sed hendrerit condimentum lacinia. Sed mi enim, aliquam sit amet tincidunt sed, aliquet laoreet lectus. Donec sed felis velit, in pretium nibh. 
+      
+      Fusce accumsan, sapien id iaculis vestibulum, metus orci elementum ante, eget fermentum metus neque nec elit. Pellentesque eget nisl dolor. Nulla condimentum lectus nec libero iaculis sed pellentesque justo fermentum. Vivamus fringilla viverra sapien, at aliquam turpis venenatis eget.
+    lampiran_surat_kuasa:         surat_kuasa.jpg
+    JenisPermohonan:              penghapusan
+<?php endfor ?>
+
+<?php for ($i = 100; $i <= 105; $i++): ?>
+  pembetulan_<?php echo $i ?>:
+    nomor:                        3123-32131-32
+    jenis_surat:                  individual
+    nop_id:                       321-323-3212
+    tahun_pajak:                  2012
+    no_surat:                     123/PEMBETULAN-II
+    isi_surat:                    |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna nibh, porta nec elementum ut, sagittis ac dui. Sed hendrerit condimentum lacinia. Sed mi enim, aliquam sit amet tincidunt sed, aliquet laoreet lectus. Donec sed felis velit, in pretium nibh. 
+      
+      Fusce accumsan, sapien id iaculis vestibulum, metus orci elementum ante, eget fermentum metus neque nec elit. Pellentesque eget nisl dolor. Nulla condimentum lectus nec libero iaculis sed pellentesque justo fermentum. Vivamus fringilla viverra sapien, at aliquam turpis venenatis eget.
+    lampiran_surat_kuasa:         surat_kuasa.jpg
+    lampiran_fotokopi_sertifikat: sertifikat.jpg
+    lampiran_fotokopi_ktp:        ktp.jpg
+    lampiran_fotokopi_imb:        imb.jpg
+    JenisPermohonan:              pembetulan
+<?php endfor ?>
+
+<?php for ($i = 100; $i <= 104; $i++): ?>
+  pembatalan_<?php echo $i ?>:
+    nomor:                        3123-32131-32
+    jenis_surat:                  individual
+    nop_id:                       321-323-3212
+    tahun_pajak:                  2012
+    no_surat:                     123/PEMBATALAN-XI
+    isi_surat:                    |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna nibh, porta nec elementum ut, sagittis ac dui. Sed hendrerit condimentum lacinia. Sed mi enim, aliquam sit amet tincidunt sed, aliquet laoreet lectus. Donec sed felis velit, in pretium nibh. 
+      
+      Fusce accumsan, sapien id iaculis vestibulum, metus orci elementum ante, eget fermentum metus neque nec elit. Pellentesque eget nisl dolor. Nulla condimentum lectus nec libero iaculis sed pellentesque justo fermentum. Vivamus fringilla viverra sapien, at aliquam turpis venenatis eget.
+    lampiran_surat_kuasa:         surat_kuasa.jpg
+    lampiran_fotokopi_sertifikat: sertifikat.jpg
+    JenisPermohonan:              pembatalan
+<?php endfor ?>
+
+<?php for ($i = 100; $i <= 108; $i++): ?>
+  lain_<?php echo $i ?>:
+    nomor:                        3123-32131-32
+    jenis_surat:                  individual
+    nop_id:                       321-323-3212
+    tahun_pajak:                  2012
+    no_surat:                     123/LAIN-I
+    isi_surat:                    |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna nibh, porta nec elementum ut, sagittis ac dui. Sed hendrerit condimentum lacinia. Sed mi enim, aliquam sit amet tincidunt sed, aliquet laoreet lectus. Donec sed felis velit, in pretium nibh. 
+      
+      Fusce accumsan, sapien id iaculis vestibulum, metus orci elementum ante, eget fermentum metus neque nec elit. Pellentesque eget nisl dolor. Nulla condimentum lectus nec libero iaculis sed pellentesque justo fermentum. Vivamus fringilla viverra sapien, at aliquam turpis venenatis eget.
+    lampiran_surat_kuasa:         surat_kuasa.jpg
+    JenisPermohonan:              lain-lain
+<?php endfor ?>
+
+ZNT:
+<?php for ($i = 0; $i < 9; $i++): ?>
+  a<?php echo $i ?>:
+    kode: A<?php echo $i ?>
+    nir: 100<?php echo $i ?>
+    blok_id: 26<?php echo $i ?>
+    dokumen_id:  AX<?php echo $i ?>
+    nip_input: 5290<?php echo $i ?>
+    valid: 0
+<?php endfor ?>
+
+jalan:
+  a1: { nama: A.  Yani - Jendral }
+  a2: { nama: Abimanyu }
+  a3: { nama: Abiyoso }
+  a4: { nama: Agung - Sultan }
+  a5: { nama: Agus Salim - Kh }
+  a6: { nama: Akasia }
+  a7: { nama: Anggrek }
+  a8: { nama: Anggur }
+  a9: { nama: Apokat }
+  a10: { nama: Arimbi }
+  a11: { nama: Arjuna }
+  a12: { nama: Asahan }
+  a13: { nama: Asem }
+  a14: { nama: Bali }
+  a15: { nama: Bangka }
+  a16: { nama: Barito }
+  a17: { nama: Batanghari }
+  a18: { nama: Bayangkara }
+  a19: { nama: Belitung }
+  a20: { nama: Bengawan Solo }
+  a21: { nama: Beringin }
+  a22: { nama: Bima }
+  a23: { nama: Blimbing }
+  a24: { nama: Brantas }
+  a25: { nama: Cemara }
+  a26: { nama: Cempaka }
+  a27: { nama: Cendana }
+  a28: { nama: Cendrawasih }
+  a29: { nama: Cengkeh }
+  a30: { nama: Ceplokpiring }
+  a31: { nama: Cereme }
+  a32: { nama: Ciliwung }
+  a33: { nama: Cimanuk }
+  a34: { nama: Cisadane }
+  a35: { nama: Citandui }
+  a36: { nama: Citarum }
+  a37: { nama: Cokroaminoto - Hos }
+  a38: { nama: D. I.  Panjaitan }
+  a39: { nama: Dahlan - Kha }
+  a40: { nama: Dahlia }
+  a41: { nama: Delima }
+  a42: { nama: Diponegoro - Pangeran }
+  a43: { nama: Flamboyan }
+  a44: { nama: Flores }
+  a45: { nama: Gajahmada }
+  a46: { nama: Garuda }
+  a47: { nama: Gatot Subroto - Jendral }
+  a48: { nama: Gelatik }
+  a49: { nama: Hasanudin }
+  a50: { nama: Hasanudin }
+  a51: { nama: Hayamwuruk }
+  a52: { nama: Imam Bonjol }
+  a53: { nama: Indragiri }
+  a54: { nama: Irian }
+  a55: { nama: Jalak }
+  a56: { nama: Jambu }
+  a57: { nama: Jati }
+  a58: { nama: Jawa }
+  a59: { nama: Juanda - Ir H }
+  a60: { nama: Kakatua }
+  a61: { nama: Kalimantan }
+  a62: { nama: Kamboja }
+  a63: { nama: Kampar }
+  a64: { nama: Kantil }
+  a65: { nama: Kapuas }
+  a66: { nama: Kartini - Ra }
+  a67: { nama: Katamso - Brigjen }
+  a68: { nama: Kawi }
+  a69: { nama: Kelud }
+  a70: { nama: Kemuning }
+  a71: { nama: Kenanga }
+  a72: { nama: Kenari }
+  a73: { nama: Kepodang }
+  a74: { nama: Ki Hajar Dewantoro }
+  a75: { nama: Kresno }
+  a76: { nama: Ks.  Tubun }
+  a77: { nama: Kutilang }
+  a78: { nama: Lawu }
+  a79: { nama: Lusi }
+  a80: { nama: Madura }
+  a81: { nama: Mahakam }
+  a82: { nama: Mahoni }
+  a83: { nama: Maluku }
+  a84: { nama: Manggis }
+  a85: { nama: Mawar }
+  a86: { nama: Melati }
+  a87: { nama: Menur }
+  a88: { nama: Merak }
+  a89: { nama: Meranti }
+  a90: { nama: Merapi }
+  a91: { nama: Merbabu }
+  a92: { nama: Merpati }
+  a93: { nama: Mojo - Kyai }
+  a94: { nama: Muria }
+  a95: { nama: Musi }
+  a96: { nama: Nanas }
+  a97: { nama: Nangka }
+  a98: { nama: Nias }
+  a99: { nama: Nusa Indah }
+  a100: { nama: Palem }
+  a101: { nama: Parkit }
+  a102: { nama: Pattimura }
+  a103: { nama: Pemuda }
+  a104: { nama: Perwakilan Rakyat }
+  a105: { nama: Pierre Tendean - Kapten }
+  a106: { nama: Rajawali }
+  a107: { nama: Rambutan }
+  a108: { nama: Rampai }
+  a109: { nama: Rinjani }
+  a110: { nama: Romowijoyo }
+  a111: { nama: Ronggowarsito }
+  a112: { nama: Sakura }
+  a113: { nama: Salak }
+  a114: { nama: Sawo }
+  a115: { nama: Semangka }
+  a116: { nama: Semeru }
+  a117: { nama: Sengon }
+  a118: { nama: Serang }
+  a119: { nama: Serayu }
+  a120: { nama: Seruni }
+  a121: { nama: Setiabudi - Ir }
+  a122: { nama: Siak }
+  a123: { nama: Slamet Riyadi - Brigjen }
+  a124: { nama: Sudirman - Jendral }
+  a125: { nama: Sugiono - Kolonel }
+  a126: { nama: Suharto - Mayor }
+  a127: { nama: Sukowati }
+  a128: { nama: Sulawesi }
+  a129: { nama: Sumatra }
+  a130: { nama: Sumba }
+  a131: { nama: Sumbawa }
+  a132: { nama: Sumbing }
+  a133: { nama: Sundoro }
+  a134: { nama: Sungkono - Kol }
+  a135: { nama: Suprapto - Letjen }
+  a136: { nama: Sutomo - Dr }
+  a137: { nama: Sutomo - Dr }
+  a138: { nama: Sutoyo - Letjen }
+  a139: { nama: Teratai }
+  a140: { nama: Ternate }
+  a141: { nama: Teuku Umar }
+  a142: { nama: Tidar }
+  a143: { nama: Timor }
+  a144: { nama: Trembesi }
+  a145: { nama: Tuntang }
+  a146: { nama: Urip Sumoharjo - Jendral }
+  a147: { nama: Veteran }
+  a148: { nama: W. R.  Supratman }
+  a149: { nama: Wahid Hasyim }
+  a150: { nama: Wahidin - Dr }
+  a151: { nama: Waru }
+  a152: { nama: Wilis }
+  a153: { nama: Yos Sudarso - Laks }
+
+kecamatan:
+  a1  : { nama: Gemolong, kodepos: 57274, kode_lokal: 1 }
+  a2  : { nama: Gesi,kodepos: 57262, kode_lokal: 2 }
+  a3  : { nama: Gondang,kodepos: 57254, kode_lokal: 3 }
+  a4  : { nama: Jenar,kodepos: 57256, kode_lokal: 4 }
+  a5  : { nama: Kalijambe,kodepos: 57275, kode_lokal: 5 }
+  a6  : { nama: Karangmalang,kodepos: 57222, kode_lokal: 6 }
+  a7  : { nama: Kedawung,kodepos: 57292, kode_lokal: 7 }
+  a8  : { nama: Masaran,kodepos: 57282, kode_lokal: 8 }
+  a9  : { nama: Miri,kodepos: 57276, kode_lokal: 9 }
+  a10  : { nama: Mondokan,kodepos: 57271, kode_lokal: 10 }
+  a11  : { nama: Ngampal,kodepos: 57252, kode_lokal: 11 }
+  a12  : { nama: Plupuh,kodepos: 57283, kode_lokal: 12 }
+  a13  : { nama: Sambirejo,kodepos: 57293, kode_lokal: 13 }
+  a14  : { nama: Sambung Macan,kodepos: 57253, kode_lokal: 14 }
+  a15  : { nama: Sidoharjo,kodepos: 57281, kode_lokal: 15 }
+  a16  : { nama: Sragen,kodepos: 57214, kode_lokal: 16 }
+  a17  : { nama: Sukodono,kodepos: 57263, kode_lokal: 17 }
+  a18  : { nama: Sumberlawang,kodepos: 57272, kode_lokal: 18 }
+  a19  : { nama: Tangen,kodepos: 57261, kode_lokal: 19 }
+  a20  : { nama: Tanon,kodepos: 57277, kode_lokal: 20 }
+
+kelurahan:
+  a1: { nama: Brangkal, kecamatan_id: 1, kode_lokal: 1 }
+  a2: { nama: Gemolong, kecamatan_id: 1, kode_lokal: 2 }
+  a3: { nama: Geneng Duwur, kecamatan_id: 1, kode_lokal: 3 }
+  a4: { nama: Jatibatur, kecamatan_id: 1, kode_lokal: 4 }
+  a5: { nama: Jenalas, kecamatan_id: 1, kode_lokal: 5 }
+  a6: { nama: Kalangan, kecamatan_id: 1, kode_lokal: 6 }
+  a7: { nama: Kaloran, kecamatan_id: 1, kode_lokal: 7 }
+  a8: { nama: Kragilan, kecamatan_id: 1, kode_lokal: 8 }
+  a9: { nama: Kwangen, kecamatan_id: 1, kode_lokal: 9 }
+  a10: { nama: Nganti, kecamatan_id: 1, kode_lokal: 10 }
+  a11: { nama: Ngembat Padas, kecamatan_id: 1, kode_lokal: 11 }
+  a12: { nama: Peleman, kecamatan_id: 1, kode_lokal: 12 }
+  a13: { nama: Purworejo, kecamatan_id: 1, kode_lokal: 13 }
+  a14: { nama: Tegaldowo, kecamatan_id: 1, kode_lokal: 14 }
+  a15: { nama: Blangu, kecamatan_id: 2, kode_lokal: 1 }
+  a16: { nama: Gesi, kecamatan_id: 2, kode_lokal: 2 }
+  a17: { nama: Pilangsari, kecamatan_id: 2, kode_lokal: 3 }
+  a18: { nama: Poleng, kecamatan_id: 2, kode_lokal: 4 }
+  a19: { nama: Slendro, kecamatan_id: 2, kode_lokal: 5 }
+  a20: { nama: Srawung, kecamatan_id: 2, kode_lokal: 6 }
+  a21: { nama: Tanggan, kecamatan_id: 2, kode_lokal: 7 }
+  a22: { nama: Bumiaji, kecamatan_id: 3, kode_lokal: 1 }
+  a23: { nama: Glonggong, kecamatan_id: 3, kode_lokal: 2 }
+  a24: { nama: Gondang, kecamatan_id: 3, kode_lokal: 3 }
+  a25: { nama: Kaliwedi, kecamatan_id: 3, kode_lokal: 4 }
+  a26: { nama: Plosorejo, kecamatan_id: 3, kode_lokal: 5 }
+  a27: { nama: Srimulyo, kecamatan_id: 3, kode_lokal: 6 }
+  a28: { nama: Tegalrejo, kecamatan_id: 3, kode_lokal: 7 }
+  a29: { nama: Tunggul, kecamatan_id: 3, kode_lokal: 8 }
+  a30: { nama: Wonotolo, kecamatan_id: 3, kode_lokal: 9 }
+  a31: { nama: Banyuurip, kecamatan_id: 4, kode_lokal: 1 }
+  a32: { nama: Dawung, kecamatan_id: 4, kode_lokal: 2 }
+  a33: { nama: Japoh, kecamatan_id: 4, kode_lokal: 3 }
+  a34: { nama: Jenar, kecamatan_id: 4, kode_lokal: 4 }
+  a35: { nama: Kandang Sapi, kecamatan_id: 4, kode_lokal: 5 }
+  a36: { nama: Mlale, kecamatan_id: 4, kode_lokal: 6 }
+  a37: { nama: Ngepringan, kecamatan_id: 4, kode_lokal: 7 }
+  a38: { nama: Banaran, kecamatan_id: 5, kode_lokal: 1 }
+  a39: { nama: Bukuran, kecamatan_id: 5, kode_lokal: 2 }
+  a40: { nama: Donoyudan, kecamatan_id: 5, kode_lokal: 3 }
+  a41: { nama: Jetis Karangpung, kecamatan_id: 5, kode_lokal: 4 }
+  a42: { nama: Kalimacan, kecamatan_id: 5, kode_lokal: 5 }
+  a43: { nama: Karangjati, kecamatan_id: 5, kode_lokal: 6 }
+  a44: { nama: Keden, kecamatan_id: 5, kode_lokal: 7 }
+  a45: { nama: Krikilan, kecamatan_id: 5, kode_lokal: 8 }
+  a46: { nama: Ngebung, kecamatan_id: 5, kode_lokal: 9 }
+  a47: { nama: Samberembe, kecamatan_id: 5, kode_lokal: 10 }
+  a48: { nama: Saren, kecamatan_id: 5, kode_lokal: 11 }
+  a49: { nama: Tegalombo, kecamatan_id: 5, kode_lokal: 12 }
+  a50: { nama: Trobayan, kecamatan_id: 5, kode_lokal: 13 }
+  a51: { nama: Wonorejo, kecamatan_id: 5, kode_lokal: 14 }
+  a52: { nama: Kroyo, kecamatan_id: 6, kode_lokal: 1 }
+  a53: { nama: Guworejo, kecamatan_id: 6, kode_lokal: 2 }
+  a54: { nama: Jurangjero, kecamatan_id: 6, kode_lokal: 3 }
+  a55: { nama: Kedung Waduk, kecamatan_id: 6, kode_lokal: 4 }
+  a56: { nama: Mojorejo, kecamatan_id: 6, kode_lokal: 5 }
+  a57: { nama: Pelem Gadung, kecamatan_id: 6, kode_lokal: 6 }
+  a58: { nama: Plosokerep, kecamatan_id: 6, kode_lokal: 7 }
+  a59: { nama: Plumbungan, kecamatan_id: 6, kode_lokal: 8 }
+  a60: { nama: Puro, kecamatan_id: 6, kode_lokal: 9 }
+  a61: { nama: Saradan, kecamatan_id: 6, kode_lokal: 10 }
+  a62: { nama: Bendungan, kecamatan_id: 7, kode_lokal: 1 }
+  a63: { nama: Celep, kecamatan_id: 7, kode_lokal: 2 }
+  a64: { nama: Jenggrik, kecamatan_id: 7, kode_lokal: 3 }
+  a65: { nama: Karang Pelem, kecamatan_id: 7, kode_lokal: 4 }
+  a66: { nama: Kedawung, kecamatan_id: 7, kode_lokal: 5 }
+  a67: { nama: Mojodoyong, kecamatan_id: 7, kode_lokal: 6 }
+  a68: { nama: Mojokerto, kecamatan_id: 7, kode_lokal: 7 }
+  a69: { nama: Pengkok, kecamatan_id: 7, kode_lokal: 8 }
+  a70: { nama: Wonokerso, kecamatan_id: 7, kode_lokal: 9 }
+  a71: { nama: Wonorejo, kecamatan_id: 7, kode_lokal: 10 }
+  a72: { nama: Dawungan, kecamatan_id: 8, kode_lokal: 1 }
+  a73: { nama: Gebang, kecamatan_id: 8, kode_lokal: 2 }
+  a74: { nama: Jati, kecamatan_id: 8, kode_lokal: 3 }
+  a75: { nama: Jirapan, kecamatan_id: 8, kode_lokal: 4 }
+  a76: { nama: Karang Malang, kecamatan_id: 8, kode_lokal: 5 }
+  a77: { nama: Kliwonan, kecamatan_id: 8, kode_lokal: 6 }
+  a78: { nama: Krebet, kecamatan_id: 8, kode_lokal: 7 }
+  a79: { nama: Krikilan, kecamatan_id: 8, kode_lokal: 8 }
+  a80: { nama: Masaran, kecamatan_id: 8, kode_lokal: 9 }
+  a81: { nama: Pilang, kecamatan_id: 8, kode_lokal: 10 }
+  a82: { nama: Pringanom, kecamatan_id: 8, kode_lokal: 11 }
+  a83: { nama: Sepat, kecamatan_id: 8, kode_lokal: 12 }
+  a84: { nama: Sidodadi, kecamatan_id: 8, kode_lokal: 13 }
+  a85: { nama: Bagor, kecamatan_id: 9, kode_lokal: 1 }
+  a86: { nama: Brojol, kecamatan_id: 9, kode_lokal: 2 }
+  a87: { nama: Doyong, kecamatan_id: 9, kode_lokal: 3 }
+  a88: { nama: Geneng, kecamatan_id: 9, kode_lokal: 4 }
+  a89: { nama: Gilirejo, kecamatan_id: 9, kode_lokal: 5 }
+  a90: { nama: Gilirejo Baru, kecamatan_id: 9, kode_lokal: 6 }
+  a91: { nama: Girimargo, kecamatan_id: 9, kode_lokal: 7 }
+  a92: { nama: Jeruk, kecamatan_id: 9, kode_lokal: 8 }
+  a93: { nama: Soko, kecamatan_id: 9, kode_lokal: 9 }
+  a94: { nama: Sunggingan, kecamatan_id: 9, kode_lokal: 10 }
+  a95: { nama: Gemantar, kecamatan_id: 10, kode_lokal: 1 }
+  a96: { nama: Jambangan, kecamatan_id: 10, kode_lokal: 2 }
+  a97: { nama: Jekani, kecamatan_id: 10, kode_lokal: 3 }
+  a98: { nama: Kedawung, kecamatan_id: 10, kode_lokal: 4 }
+  a99: { nama: Pare, kecamatan_id: 10, kode_lokal: 5 }
+  a100: { nama: Sono, kecamatan_id: 10, kode_lokal: 6 }
+  a101: { nama: Sumberejo, kecamatan_id: 10, kode_lokal: 7 }
+  a102: { nama: Tempelrejo, kecamatan_id: 10, kode_lokal: 8 }
+  a103: { nama: Trombol, kecamatan_id: 10, kode_lokal: 9 }
+  a104: { nama: Bandung, kecamatan_id: 11, kode_lokal: 1 }
+  a105: { nama: Bener, kecamatan_id: 11, kode_lokal: 2 }
+  a106: { nama: Gabus, kecamatan_id: 11, kode_lokal: 3 }
+  a107: { nama: Karangudi, kecamatan_id: 11, kode_lokal: 4 }
+  a108: { nama: Kebonromo, kecamatan_id: 11, kode_lokal: 5 }
+  a109: { nama: Klandungan, kecamatan_id: 11, kode_lokal: 6 }
+  a110: { nama: Ngarum, kecamatan_id: 11, kode_lokal: 7 }
+  a111: { nama: Pilangsari, kecamatan_id: 11, kode_lokal: 8 }
+  a112: { nama: Cangkol, kecamatan_id: 12, kode_lokal: 1 }
+  a113: { nama: Dari, kecamatan_id: 12, kode_lokal: 2 }
+  a114: { nama: Gedongan, kecamatan_id: 12, kode_lokal: 3 }
+  a115: { nama: Gentan Banaran, kecamatan_id: 12, kode_lokal: 4 }
+  a116: { nama: Jabung, kecamatan_id: 12, kode_lokal: 5 }
+  a117: { nama: Jembangan, kecamatan_id: 12, kode_lokal: 6 }
+  a118: { nama: Karang Anyar, kecamatan_id: 12, kode_lokal: 7 }
+  a119: { nama: Karangwaru, kecamatan_id: 12, kode_lokal: 8 }
+  a120: { nama: Karungan, kecamatan_id: 12, kode_lokal: 9 }
+  a121: { nama: Manyarejo, kecamatan_id: 12, kode_lokal: 10 }
+  a122: { nama: Ngrombo, kecamatan_id: 12, kode_lokal: 11 }
+  a123: { nama: Plupuh, kecamatan_id: 12, kode_lokal: 12 }
+  a124: { nama: Pungsari, kecamatan_id: 12, kode_lokal: 13 }
+  a125: { nama: Sambirejo, kecamatan_id: 12, kode_lokal: 14 }
+  a126: { nama: Sidokerto, kecamatan_id: 12, kode_lokal: 15 }
+  a127: { nama: Somomoro Dukuh, kecamatan_id: 12, kode_lokal: 16 }
+  a128: { nama: Blimbing, kecamatan_id: 13, kode_lokal: 1 }
+  a129: { nama: Dawung, kecamatan_id: 13, kode_lokal: 2 }
+  a130: { nama: Jambeyan, kecamatan_id: 13, kode_lokal: 3 }
+  a131: { nama: Jetis, kecamatan_id: 13, kode_lokal: 4 }
+  a132: { nama: Kadipiro, kecamatan_id: 13, kode_lokal: 5 }
+  a133: { nama: Musuk, kecamatan_id: 13, kode_lokal: 6 }
+  a134: { nama: Sambi, kecamatan_id: 13, kode_lokal: 7 }
+  a135: { nama: Sambirejo, kecamatan_id: 13, kode_lokal: 8 }
+  a136: { nama: Sukorejo, kecamatan_id: 13, kode_lokal: 9 }
+  a137: { nama: Banaran, kecamatan_id: 14, kode_lokal: 1 }
+  a138: { nama: Banyuurip, kecamatan_id: 14, kode_lokal: 2 }
+  a139: { nama: Bedoro, kecamatan_id: 14, kode_lokal: 3 }
+  a140: { nama: Cemeng, kecamatan_id: 14, kode_lokal: 4 }
+  a141: { nama: Gringging, kecamatan_id: 14, kode_lokal: 5 }
+  a142: { nama: Karanganyar, kecamatan_id: 14, kode_lokal: 6 }
+  a143: { nama: Plumbon, kecamatan_id: 14, kode_lokal: 7 }
+  a144: { nama: Sambungmacan, kecamatan_id: 14, kode_lokal: 8 }
+  a145: { nama: Toyogo, kecamatan_id: 14, kode_lokal: 9 }
+  a146: { nama: Bentak, kecamatan_id: 15, kode_lokal: 1 }
+  a147: { nama: Duyungan, kecamatan_id: 15, kode_lokal: 2 }
+  a148: { nama: Jambanan, kecamatan_id: 15, kode_lokal: 3 }
+  a149: { nama: Jetak, kecamatan_id: 15, kode_lokal: 4 }
+  a150: { nama: Pandak, kecamatan_id: 15, kode_lokal: 5 }
+  a151: { nama: Patihan, kecamatan_id: 15, kode_lokal: 6 }
+  a152: { nama: Purwosuman, kecamatan_id: 15, kode_lokal: 7 }
+  a153: { nama: Sidoharjo, kecamatan_id: 15, kode_lokal: 8 }
+  a154: { nama: Singopadu, kecamatan_id: 15, kode_lokal: 9 }
+  a155: { nama: Sribit, kecamatan_id: 15, kode_lokal: 10 }
+  a156: { nama: Taraman, kecamatan_id: 15, kode_lokal: 11 }
+  a157: { nama: Tenggak, kecamatan_id: 15, kode_lokal: 12 }
+  a158: { nama: Kedungupit, kecamatan_id: 16, kode_lokal: 1 }
+  a159: { nama: Sragen Tengah, kecamatan_id: 16, kode_lokal: 2 }
+  a160: { nama: Tangkil, kecamatan_id: 16, kode_lokal: 3 }
+  a161: { nama: Sragen Kulon, kecamatan_id: 16, kode_lokal: 4 }
+  a162: { nama: Sine, kecamatan_id: 16, kode_lokal: 5 }
+  a163: { nama: Sragen Wetan, kecamatan_id: 16, kode_lokal: 6 }
+  a164: { nama: Nglorog, kecamatan_id: 16, kode_lokal: 7 }
+  a165: { nama: Karang Tengah, kecamatan_id: 16, kode_lokal: 8 }
+  a166: { nama: Baleharjo, kecamatan_id: 17, kode_lokal: 1 }
+  a167: { nama: Bendo, kecamatan_id: 17, kode_lokal: 2 }
+  a168: { nama: Gebang, kecamatan_id: 17, kode_lokal: 3 }
+  a169: { nama: Jati Tengah, kecamatan_id: 17, kode_lokal: 4 }
+  a170: { nama: Juwok, kecamatan_id: 17, kode_lokal: 5 }
+  a171: { nama: Karang Anom, kecamatan_id: 17, kode_lokal: 6 }
+  a172: { nama: Majenang, kecamatan_id: 17, kode_lokal: 7 }
+  a173: { nama: Newung, kecamatan_id: 17, kode_lokal: 8 }
+  a174: { nama: Pantirejo, kecamatan_id: 17, kode_lokal: 9 }
+  a175: { nama: Cepoko, kecamatan_id: 18, kode_lokal: 1 }
+  a176: { nama: Hadiluwih, kecamatan_id: 18, kode_lokal: 2 }
+  a177: { nama: Jati, kecamatan_id: 18, kode_lokal: 3 }
+  a178: { nama: Kacangan, kecamatan_id: 18, kode_lokal: 4 }
+  a179: { nama: Mojopuro, kecamatan_id: 18, kode_lokal: 5 }
+  a180: { nama: Ngandul, kecamatan_id: 18, kode_lokal: 6 }
+  a181: { nama: Ngargosari, kecamatan_id: 18, kode_lokal: 7 }
+  a182: { nama: Ngargotirto, kecamatan_id: 18, kode_lokal: 8 }
+  a183: { nama: Pagak, kecamatan_id: 18, kode_lokal: 9 }
+  a184: { nama: Pendem, kecamatan_id: 18, kode_lokal: 10 }
+  a185: { nama: Tlogo Tirto, kecamatan_id: 18, kode_lokal: 11 }
+  a186: { nama: Denanyar, kecamatan_id: 19, kode_lokal: 1 }
+  a187: { nama: Dukuh, kecamatan_id: 19, kode_lokal: 2 }
+  a188: { nama: Galeh, kecamatan_id: 19, kode_lokal: 3 }
+  a189: { nama: Jekawal, kecamatan_id: 19, kode_lokal: 4 }
+  a190: { nama: Katelan, kecamatan_id: 19, kode_lokal: 5 }
+  a191: { nama: Ngrombo, kecamatan_id: 19, kode_lokal: 6 }
+  a192: { nama: Sigit, kecamatan_id: 19, kode_lokal: 7 }
+  a193: { nama: Bonagung, kecamatan_id: 20, kode_lokal: 1 }
+  a194: { nama: Gabugan, kecamatan_id: 20, kode_lokal: 2 }
+  a195: { nama: Gading, kecamatan_id: 20, kode_lokal: 3 }
+  a196: { nama: Gawan, kecamatan_id: 20, kode_lokal: 4 }
+  a197: { nama: Jono, kecamatan_id: 20, kode_lokal: 5 }
+  a198: { nama: Kalikobok, kecamatan_id: 20, kode_lokal: 6 }
+  a199: { nama: Karang Talun, kecamatan_id: 20, kode_lokal: 7 }
+  a200: { nama: Karangasem, kecamatan_id: 20, kode_lokal: 8 }
+  a201: { nama: Kecik, kecamatan_id: 20, kode_lokal: 9 }
+  a202: { nama: Ketro, kecamatan_id: 20, kode_lokal: 10 }
+  a203: { nama: Padas, kecamatan_id: 20, kode_lokal: 11 }
+  a204: { nama: Pengkol, kecamatan_id: 20, kode_lokal: 12 }
+  a205: { nama: Sambi Duwur, kecamatan_id: 20, kode_lokal: 13 }
+  a206: { nama: Slogo, kecamatan_id: 20, kode_lokal: 14 }
+  a207: { nama: Suwatu, kecamatan_id: 20, kode_lokal: 15 }
+  a208: { nama: Tanon, kecamatan_id: 20, kode_lokal: 16 }

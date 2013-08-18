@@ -1,0 +1,58 @@
+opsi:
+  a1:
+    name:  spop-status
+    value:  Pemilik|Penyewa|Pengelola|Pemakai|Sengketa
+  a2:
+    name:  spop-pekerjaan
+    value:  PNS|ABRI|Pensiunan|Badan|Lainnya
+  a3:
+    name:  spop-jenis_tanah
+    value:  Tanah dan Bangunan|Kavling Siap Bangun|Tanah Kosong|Fasilitas Umum
+  a4:
+    name:  lspop-jenis_penggunaan_bangunan
+    value:  Perumahan|Perkantoran Swasta|Pabrik|Toko/Apotik/Pasar/Ruko|Rumah Sakit/Klinik|Olah Raga/Rekreasi|Hotel/Wisma|Bengkel/Gudang/Pertanian |Gedung Pemerintah|Lain-Lain|Bangunan Tidak Kena Pajak|Bangunan Parkir|Apartemen|Pompa Bensin|Tangki Minyak|Gedung Sekolah
+  a5:
+    name:  lspop-kondisi_pada_umumnya
+    value:  Sangat Baik|Baik|Sedang|Jelek
+  a6:
+    name: lspop-konstruksi
+    value:  Baja|Beton|Batu Bata|Kayu
+  a7:
+    name:  lspop-atap
+    value:  Decarbon/Beton/Gtg Glazur|Gtg Beton/Aluminium|Gtg Biasa/Girap|Asbes|Seng
+  a8:
+    name:  lspop-dinding
+    value:  Kaca/Aluminium|Beton|Batu Bata/Conblok|Kayu|Seng|Tidak ada
+  a9:
+    name: lspop-lantai
+    value: Marmer|Keramik|Teraso|Ubin PC|Semen
+  a10:
+    name: lspop-langit_langit
+    value:  Akustik/Jati|Triplek/Asbes Bambu|Tidak Ada
+  a11:
+    name:  lspop-ac_sentral
+    value:  Ada|Tidak Ada
+  a12:
+    name:  lspop-kondisi_kolam_renang
+    value:  Diplester|Dengan Pelapis
+  a13:
+    name:  lspop-kantor,toko,RS,pabrik,apartemen,
+    value:  Kelas 1|Kelas 2|Kelas 3|Kelas 4
+  a14:
+    name:  lspop-olahraga,sekolah
+    value:  Kelas 1|Kelas 2
+  a15:
+    name:  lspop-jenis_hotel
+    value:  Npn-Resort|Resort
+  a16:
+    name:  lspop-jumlah_bintang
+    value:  Bintang 5|Bintang 4|Bintang 3|Bintang 1-2|non Bintang
+  a17:
+    name:  lspop-letak_tangki
+    value:  di Atas Tanah|di Bawah Tanah
+  a18:
+    name:  pegawai-golongan
+    value: IA|IB|IC|ID|IIA|IIB|IIC|IID|IIIA|IIIB|IIIC|IIID|IVA|IVB|IVC|IVD|IVE 
+  a19:
+    name: pegawai-pangkat
+    value: Juru Muda|Juru Muda Tingkat 1|Juru|Juru Tingkat 1|Pengatur Muda|Pengatur Muda Tingkat 1|Pengatur|Pengatur Tingkat 1|Penata Muda|Penata Muda Tingkat 1|Penata|Penata Tingkat 1|Pembina|Pembina Tingkat 1|Pembina Utama Muda|Pembina Utama Madya|Pembina Utama
